@@ -22,10 +22,10 @@ const Content = () => {
         async function fetchData() {
             try {
                 const [data1, data2, data3, data4] = await Promise.all([
-                    fetch('http://localhost:3000/first').then(res => res.json()),
-                    fetch('http://localhost:3000/second').then(res => res.json()),
-                    fetch('http://localhost:3000/third').then(res => res.json()),
-                    fetch('http://localhost:3000/fourth').then(res => res.json()),
+                    fetch('https://fog-battlefield-backend-km6n.onrender.com/first').then(res => res.json()),
+                    fetch('https://fog-battlefield-backend-km6n.onrender.com/second').then(res => res.json()),
+                    fetch('https://fog-battlefield-backend-km6n.onrender.com/third').then(res => res.json()),
+                    fetch('https://fog-battlefield-backend-km6n.onrender.com/fourth').then(res => res.json()),
                 ]);
                 
                 settable1(data1);
