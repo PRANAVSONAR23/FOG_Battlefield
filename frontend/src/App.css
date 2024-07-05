@@ -1,0 +1,27 @@
+/* App.css */
+.no-scrollbar::-webkit-scrollbar {
+  width:0px;
+  
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+
+
+.scrollbar1::-webkit-scrollbar{
+  width: 2px;
+}
+
+.scrollbar1::-webkit-scrollbar-track{
+  background: rgba(182, 63, 63, 0.04);
+}
+.scrollbar1 ::-webkit-scrollbar-thumb{
+   background: rgb(255, 255, 255);
+}
+
+.up:hover {
+  transform: translateY(-10px); /* Translate the div 10px upwards on hover */
+}
+.up {
+  
+  transition: transform 0.3s ease; /* Add a transition for smooth animation */
+}
